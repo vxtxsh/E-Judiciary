@@ -1,0 +1,123 @@
+body {
+  background: #000000;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+i, em {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+em {
+  transform: translate(-50%, -50%) rotate(calc(var(--e) * 360deg)) translateY(-14vw) rotate(180deg);
+}
+em:nth-child(1) {
+  --e: 0.125;
+  --m: 1;
+}
+em:nth-child(2) {
+  --e: 0.25;
+  --m: 0.75;
+}
+em:nth-child(3) {
+  --e: 0.375;
+  --m: 0.5;
+}
+em:nth-child(4) {
+  --e: 0.5;
+  --m: 0.25;
+}
+em:nth-child(5) {
+  --e: 0.625;
+  --m: 0;
+}
+em:nth-child(6) {
+  --e: 0.75;
+  --m: 0.25;
+}
+em:nth-child(7) {
+  --e: 0.875;
+  --m: 0.5;
+}
+em:nth-child(8) {
+  --e: 1;
+  --m: 0.75;
+}
+em:nth-child(9) {
+  --e: 1.125;
+  --m: 1;
+}
+
+i {
+  filter: blur(calc((10 - var(--j)) / 15 * 6px));
+  opacity: calc(var(--j) / 10);
+  background: hsl(calc(100 + var(--i) * 10), 100%, 70%);
+  height: calc(var(--i) * var(--i) * .03vw);
+  width: calc(var(--i) * var(--i) * .03vw);
+  border-radius: 50%;
+  -webkit-animation: 3s move alternate infinite cubic-bezier(0.53, 0.51, 0.31, 0.86);
+          animation: 3s move alternate infinite cubic-bezier(0.53, 0.51, 0.31, 0.86);
+  -webkit-animation-delay: calc(var(--i) * -0.07s - (1s * var(--m)));
+          animation-delay: calc(var(--i) * -0.07s - (1s * var(--m)));
+}
+i:nth-child(1) {
+  --i: 19;
+  --j: 1;
+}
+i:nth-child(2) {
+  --i: 18;
+  --j: 2;
+}
+i:nth-child(3) {
+  --i: 17;
+  --j: 3;
+}
+i:nth-child(4) {
+  --i: 16;
+  --j: 4;
+}
+i:nth-child(5) {
+  --i: 15;
+  --j: 5;
+}
+i:nth-child(6) {
+  --i: 14;
+  --j: 6;
+}
+i:nth-child(7) {
+  --i: 13;
+  --j: 7;
+}
+i:nth-child(8) {
+  --i: 12;
+  --j: 8;
+}
+i:nth-child(9) {
+  --i: 11;
+  --j: 9;
+}
+i:nth-child(10) {
+  --i: 10;
+  --j: 10;
+}
+
+@-webkit-keyframes move {
+  50% {
+    transform: translate(-50%, -50%) translateY(calc(var(--j) * -1vw)) translateX(calc(var(--i) * -.5vw)) rotate(-280deg) translateY(-1vw);
+  }
+  0%, 100% {
+    transform: translate(-50%, -50%) rotate(20deg) translateY(calc(var(--j) * 1vw));
+  }
+}
+
+@keyframes move {
+  50% {
+    transform: translate(-50%, -50%) translateY(calc(var(--j) * -1vw)) translateX(calc(var(--i) * -.5vw)) rotate(-280deg) translateY(-1vw);
+  }
+  0%, 100% {
+    transform: translate(-50%, -50%) rotate(20deg) translateY(calc(var(--j) * 1vw));
+  }
+}
