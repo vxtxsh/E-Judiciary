@@ -41,3 +41,13 @@ Expansion Plans: The addition of a web crawler for faster lookup, is also useful
 CONCLUSION
 
 A system of this nature is designed to be inclusive, drawing in judges, litigants, advocates, other stakeholders and citizens to correct inequalities in information distribution, cutting across the otherwise hierarchical and potentially corrupt mechanisms of a typical Indian court. It will also allow for systematic case planning, help save time, aid in the decision-making process, and improve accountability. Serving as a consolidated information source, it establishes connections between multiple departments and institutions. With continuous improvement at its core, E-Judi sets a new standard by not only streamlining existing processes but also introducing innovative functionalities. This platform is not just a tool; it is a commitment to reshaping the legal landscape, making justice more accessible and citizen-friendly.
+
+IMAGES
+
+<div style="display: flex; justify-content: center;align-items: center;">
+    <img src="https://github.com/vxtxsh/e-judiciary/assets/146342392/f76e85a8-4c9c-49d2-855d-e8b5884afa60" alt="Image 2" width="200" style="padding-right: 200px;" />
+  <img src="https://github.com/vxtxsh/e-judiciary/assets/146342392/e4b57929-d4f5-4f4e-a9a2-bf7a5569feaf" alt="Image 2" width="200" style="padding-right: 200px;" />
+    <img src="https://github.com/vxtxsh/e-judiciary/assets/146342392/040ccf83-2bdc-47df-979b-2f33603ff7e7" alt="Image 1" width="550" />
+</div>
+
+
