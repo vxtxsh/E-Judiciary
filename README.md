@@ -4,10 +4,6 @@ TEAM DETAILS
 
 Meet the team 23AAC02 behind the project: B Vitesh, Saisree P, S Astuti, Svapnnika, Varshith. The team was mentored by Padmakshaya.This project was accomplished during first year of engineering from 2022 to 2023.
 
-GLOSSARY
-
-BaaS: Backend-as-a-Service RBAC: Role Based Access Control
-
 ABSTRACT
 
 Welcome to E-Judiciary, a premier, centralized, tech-powered court operations platform poised to address real-time challenges plaguing the Indian judicial system. Equipped with a comprehensive suite of features, this app streamline court operations and catalyses the democratization of the legal landscape. Our key goals with this app include transparency, accessibility, and efficiency; three words not usually associated with the existing judicial system, despite the government’s efforts. We aim to aid courts in achieving paperless justice delivery, furthering Nandan Nilekani’s vision of achieving Atmanirbhar Bharat via development of in-house capacity and capability to drive social development of the country.
